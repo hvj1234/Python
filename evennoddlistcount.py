@@ -2,6 +2,7 @@ evens=0;odds=0;list=[]
 n=int(input("Enter no of elements in list:"))
 for i in range(0,n):
     ele=int(input())
+    list.append(ele)
 for val in list:
     if val % 2 == 0:
         evens+=val
